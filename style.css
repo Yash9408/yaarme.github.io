@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+@font-face {
+    font-family: billabong;
+    src: url('FontsFree-Net-Billabong.ttf');
+    font-weight: bold;
+}
+p{
+  display: inline;
+margin-left: 60px;
+
+}
+
+h1.header {
+    font-family: billabong;
+}
+
+.main {
+  width: 350px;
+  height: 585px;
+  margin: auto;
+}
+
+.header {
+  padding: 20px 10px 10px;
+  background-color: #f6f5f1;
+  height: 30px;
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(184, 184, 184, 0.3);
+  -moz-box-shadow: -1px 1px 5px 0px rgba(184, 184, 184, 0.3);
+  box-shadow: -1px 1px 5px 0px rgba(184, 184, 184, 0.3);
+}
+
+.camera {
+  float: left;
+}
+
+.fas, .far {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.searchdm {
+  display: inline-block;
+  float: right;
+}
+
+.fa-search {
+  margin: 0 20px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.body {
+  width: auto;
+  height: 480px;
+  text-align: center;
+}
+
+.body h2 {
+  position: relative;
+  top: 200px;
+  color: red;
+  text-align: center;
+}
+
+.footer {
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
