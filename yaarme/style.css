@@ -17,8 +17,10 @@ h1.header {
 
 .main {
   width: 350px;
-  height: 585px;
+  height: 600px;
   margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .header {
@@ -28,6 +30,8 @@ h1.header {
   -webkit-box-shadow: -1px 1px 5px 0px rgba(184, 184, 184, 0.3);
   -moz-box-shadow: -1px 1px 5px 0px rgba(184, 184, 184, 0.3);
   box-shadow: -1px 1px 5px 0px rgba(184, 184, 184, 0.3);
+  border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
 }
 
 .camera {
